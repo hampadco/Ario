@@ -1,10 +1,12 @@
 {
   "mainAssemblyName": "Front",
   "resources": {
-    "hash": "sha256-4Kkoy0oxv6RCVKYNgP+QxsexzWuVisEqex47et/y2Xw=",
+    "hash": "sha256-qFcvK18L3GGJpm1jpmKbOOy+0BhF4ev54ZDDyKYSFcc=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
+      "BlazorBootstrap.8ia4ukhb4c.wasm": "BlazorBootstrap.wasm",
+      "Blazored.Toast.4gbrhkrum5.wasm": "Blazored.Toast.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -312,10 +314,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Shared.jfqgxc05a6.wasm": "Shared.wasm",
-      "Shared.6e05ehnj6b.pdb": "Shared.pdb",
-      "Front.yob88fp8k4.wasm": "Front.wasm",
-      "Front.yvogmfq8ax.pdb": "Front.pdb"
+      "Shared.obznhqbqsj.wasm": "Shared.wasm",
+      "Shared.4pfk347rek.pdb": "Shared.pdb",
+      "Front.3ap0hqh9wt.wasm": "Front.wasm",
+      "Front.93vti9jcdt.pdb": "Front.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -338,6 +340,8 @@
     "assembly": {
       "Azure.Core.92q6rqqhly.wasm": "sha256-cUx0yT4TBboCr8yulFrimAvC9ecu4FtrhfEZ7T8ragU=",
       "Azure.Identity.b6ekoqlu3w.wasm": "sha256-wxR1E0zJLWYxnckYUOXZsbZoUjCYCwgg3aYbYbCLaGo=",
+      "BlazorBootstrap.8ia4ukhb4c.wasm": "sha256-MIwpz+S9i8sZvkJIsjB5JXII2Y7wGr+D3glSOxjbeyw=",
+      "Blazored.Toast.4gbrhkrum5.wasm": "sha256-tCNYnYuB69ZO7+n7obUv//+KkNP809fARvATEkvPug4=",
       "Humanizer.oqup3v7t3k.wasm": "sha256-4NbSboZzzP9nikRtXapUZNzOyITt7ht9TNqCIQHr5OE=",
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "sha256-N6/4dp+rtuEu+iWs7ZZs30QrZzpGpF9KC6ulCWZCo2w=",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "sha256-AYyXG0WrvwNEEX2QtbpR9AtYu26WKG+S10Q398vbgqY=",
@@ -571,12 +575,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Shared.jfqgxc05a6.wasm": "sha256-z5oC6QurtCJQUfrUAhlCu6m3YeQXqv8f/jkFUEqBqvE=",
-      "Front.yob88fp8k4.wasm": "sha256-MiGRdYLyb81vZ+6/6ec1YP+sRgedpRFpvdK6CW1b21I="
+      "Shared.obznhqbqsj.wasm": "sha256-bGTWcOYPQ3H+GAYRK+zz/1d/I/KKfqSrxKo4BXCG+jM=",
+      "Front.3ap0hqh9wt.wasm": "sha256-BddiMn6fOeCKG7dbR89lnzao+W6Ty1dePR7gXypR4nY="
     },
     "pdb": {
-      "Shared.6e05ehnj6b.pdb": "sha256-woylSkSizXKXu8JRg5BFydBbkpiYkLpZUYp+NRJkeUk=",
-      "Front.yvogmfq8ax.pdb": "sha256-/vMGVxatjjJWehyTR79gMhXQZ/f+NH6CXKPt3J9YZig="
+      "Shared.4pfk347rek.pdb": "sha256-iNBhzMnMsaioB955o3bfTcxrlPsLGxmXNDvesQ2WTqU=",
+      "Front.93vti9jcdt.pdb": "sha256-pYgM1DqQtrVWekMMGGWT3eBo/67Yc236XU6x/oqHapA="
     },
     "satelliteResources": {
       "cs": {

@@ -1,32 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
 
+
+<!doctype html>
+<html lang="en" class="h-100">
+
+
+<!-- signup.html   -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front</title>
-    <base href="/" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="Front.styles.css" rel="stylesheet" />
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>آریو </title>
+
+
+    <!-- style css for this template -->
+    <link href="assets/css/style.css" rel="stylesheet" id="style">
 </head>
 
-<body>
+<body class="body-scroll d-flex flex-column h-100 dark-bg bg1" data-page="signup">
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
-    </div>
+    <!-- loader section -->
+     <div class="container-fluid loader-wrap">
+        <div class="row h-100">
+            <div class="col-10 col-md-6 col-lg-5 col-xl-3 mx-auto text-center align-self-center">
+                <div class="loader-cube-wrap mx-auto">
+                    <div class="loader-cube1 loader-cube"></div>
+                    <div class="loader-cube2 loader-cube"></div>
+                    <div class="loader-cube4 loader-cube"></div>
+                    <div class="loader-cube3 loader-cube"></div>
+                </div>
+                <p> به بازی آریو خوش آمدید<br><strong>لطفا منتظر بمانید...</strong></p>
+            </div>
+        </div>
+    </div> 
+    <!-- loader section ends -->
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="." class="reload">Reload</a>
-        <span class="dismiss">🗙</span>
+ 
+
     </div>
+   
+
+
+
+
+
+
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
 
+
+<!-- signup.html   -->
 </html>

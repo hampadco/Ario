@@ -157,3 +157,4 @@ C:\Users\Apple\Desktop\Ario\EndPoint\obj\Debug\net9.0\refint\EndPoint.dll
 C:\Users\Apple\Desktop\Ario\EndPoint\obj\Debug\net9.0\EndPoint.pdb
 C:\Users\Apple\Desktop\Ario\EndPoint\obj\Debug\net9.0\EndPoint.genruntimeconfig.cache
 C:\Users\Apple\Desktop\Ario\EndPoint\obj\Debug\net9.0\ref\EndPoint.dll
+C:\Users\Apple\Desktop\Ario\EndPoint\obj\Debug\net9.0\EndPoint.sourcelink.json

@@ -12,3 +12,4 @@ C:\Users\Apple\Desktop\Ario\Shared\obj\Debug\net9.0\refint\Shared.dll
 C:\Users\Apple\Desktop\Ario\Shared\obj\Debug\net9.0\Shared.pdb
 C:\Users\Apple\Desktop\Ario\Shared\obj\Debug\net9.0\Shared.genruntimeconfig.cache
 C:\Users\Apple\Desktop\Ario\Shared\obj\Debug\net9.0\ref\Shared.dll
+C:\Users\Apple\Desktop\Ario\Shared\obj\Debug\net9.0\Shared.sourcelink.json

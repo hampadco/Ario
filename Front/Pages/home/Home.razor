@@ -1,0 +1,731 @@
+ @page "/home"
+@layout MainLayout
+
+
+ <!-- search -->
+        <div class="row mb-4">
+            <div class="col">
+                <div class="form-floating">
+                    <input type="text" class="form-control is-valid" id="search" placeholder="جستجو کردن">
+                    <label for="search">جستجو کردن</label>
+                    <button type="button" class="btn btn-link tooltip-btn d-block text-color-theme">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-lg btn-theme shadow-sm filter-btn">
+                    <i class="bi bi-filter size-22"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- categories -->
+        <div class="swiper-container categoriesswiper mb-3">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/berry-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">میوه ها</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/lemon-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">لیمو</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/banana-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">موز</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/apple-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">سیب</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/berry-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">میوه ها</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/lemon-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">لیمو</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/banana-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">موز</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/apple-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">سیب</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/berry-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">میوه ها</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/lemon-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">لیمو</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/banana-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">موز</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/apple-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">سیب</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/berry-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">میوه ها</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/lemon-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">لیمو</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/banana-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">موز</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <img src="assets/img/apple-small.png" alt="">
+                        </div>
+                    </div>
+                    <p class="categoryname">سیب</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- offerslides -->
+        <div class="swiper-container offerslides mb-3">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="card shadow-sm card-theme">
+                        <div class="card-body py-1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/img/Banner.png" alt="" class="mw-100">
+                                </div>
+                                <div class="col text-start align-self-center ps-0">
+                                    <h6 class="fw-normal mb-0">تخفیف فصلی</h6>
+                                    <h2>50 درصد تخفیف</h2>
+                                    <p>از کد <br><strong>"SEASON01" استفاده کنید</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card shadow-sm card-theme">
+                        <div class="card-body py-1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/img/Banner3.png" alt="" class="mw-100">
+                                </div>
+                                <div class="col text-start align-self-center ps-0">
+                                    <h6 class="fw-normal mb-0">تخفیف ویژه</h6>
+                                    <h2>60 درصد تخفیف</h2>
+                                    <p>از کد <br><strong>"NEW004" استفاده کنید</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card shadow-sm card-theme">
+                        <div class="card-body py-1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/img/Banner2.png" alt="" class="mw-100">
+                                </div>
+                                <div class="col text-start align-self-center ps-0">
+                                    <h6 class="fw-normal mb-0">تخفیف پروتئین</h6>
+                                    <h2>20 درصد تخفیف</h2>
+                                    <p>از کد <br><strong>"REAL20BK" استفاده کنید</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination pagination-offerslides"></div>
+        </div>
+
+        <!-- Products -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">محبوب</h5>
+            </div>
+            <div class="col-auto">
+                <a href="#" class="link text-color-theme">مشاهده همه<i class="bi bi-chevron-left"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm product mb-4">
+                    <div class="card-body">
+                        <figure class="text-center">
+                            <img src="assets/img/product1.png" alt="">
+                        </figure>
+                        <p class="mb-1">
+                            <small class="text-opac">تازه </small>
+                            <small class="float-end"> <i class="bi bi-star-fill text-warning"></i> <span class="text-opac">4.5</span> </small>
+                        </p>
+                        <a href="product.html" class="text-normal">
+                            <h6 class="text-color-theme">سیب قرمز</h6>
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0">12000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle shadow btn-gradient" data-bs-toggle="modal" data-bs-target="#addproductcart">
+                                    <i class="bi bi-plus size-22"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm product mb-4">
+                    <div class="card-body">
+                        <figure class="text-center">
+                            <img src="assets/img/product2.png" alt="">
+                        </figure>
+                        <p class="mb-1">
+                            <small class="text-opac">پروتئین </small>
+                            <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                        </p>
+                        <a href="product.html" class="text-normal">
+                            <h6 class="text-color-theme">بهترین موز</h6>
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0">8000 تومان <br><small class="text-opac">در هر 12 عدد</small></p>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle shadow btn-gradient" data-bs-toggle="modal" data-bs-target="#addproductcart">
+                                    <i class="bi bi-plus size-22"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm product mb-4">
+                    <div class="card-body">
+                        <figure class="text-center">
+                            <img src="assets/img/product3.png" alt="">
+                        </figure>
+                        <p class="mb-1">
+                            <small class="text-opac">تازه </small>
+                            <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                        </p>
+                        <a href="product.html" class="text-normal">
+                            <h6 class="text-color-theme">هندوانه</h6>
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0">11000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle shadow btn-gradient" data-bs-toggle="modal" data-bs-target="#addproductcart">
+                                    <i class="bi bi-plus size-22"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card shadow-sm product mb-4">
+                    <div class="card-body">
+                        <figure class="text-center">
+                            <img src="assets/img/product4.png" alt="">
+                        </figure>
+                        <p class="mb-1">
+                            <small class="text-opac">تازه </small>
+                            <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                        </p>
+                        <a href="product.html" class="text-normal">
+                            <h6 class="text-color-theme">لیمو زرد</h6>
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0">8000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle shadow btn-gradient" data-bs-toggle="modal" data-bs-target="#addproductcart">
+                                    <i class="bi bi-plus size-22"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">شما به دنبال</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-2">
+                <div class="badge-new me-2 mb-3 shadow-sm">تحویل رایگان</div>
+                <div class="badge-new active me-2 mb-3 shadow-sm">1000 - 10000 تومان</div>
+                <div class="badge-new me-2 mb-3 shadow-sm">جدید</div>
+                <div class="badge-new me-2 mb-3 shadow-sm">11000 - 20000 تومان</div>
+                <div class="badge-new me-2 mb-3 shadow-sm">تازه</div>
+                <div class="badge-new me-2 mb-3 shadow-sm">پروتئین</div>
+            </div>
+        </div>
+
+        <!-- trending items -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">موارد پرطرفدار</h5>
+            </div>
+        </div>
+        <!-- trending -->
+        <div class="swiper-container trendingslides">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="card shadow-sm product mb-4">
+                        <figure class="text-center mb-0 bg-light-warning">
+                            <img src="assets/img/product1.png" alt="">
+                        </figure>
+                        <div class="card-body">
+                            <p class="mb-1">
+                                <small class="text-opac">تازه </small>
+                                <small class="float-end"> <i class="bi bi-star-fill text-warning"></i> <span class="text-opac">4.5</span> </small>
+                            </p>
+                            <a href="product.html" class="text-normal">
+                                <h6 class="text-color-theme">سیب قرمز</h6>
+                            </a>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">12000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- button counter increamenter-->
+                                    <div class="counter-number">
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-dash size-22"></i>
+                                        </button>
+                                        <span>1</span>
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-plus size-22"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm product mb-4">
+                        <figure class="text-center mb-0 bg-light-warning">
+                            <img src="assets/img/product2.png" alt="">
+                        </figure>
+                        <div class="card-body">
+                            <p class="mb-1">
+                                <small class="text-opac">پروتئین </small>
+                                <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                            </p>
+                            <a href="product.html" class="text-normal">
+                                <h6 class="text-color-theme">بهترین موز</h6>
+                            </a>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">8000 تومان <br><small class="text-opac">در هر 12 عدد</small></p>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- button counter increamenter-->
+                                    <div class="counter-number">
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-dash size-22"></i>
+                                        </button>
+                                        <span>1</span>
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-plus size-22"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm product mb-4">
+                        <figure class="text-center mb-0 bg-light-warning">
+                            <img src="assets/img/product3.png" alt="">
+                        </figure>
+                        <div class="card-body">
+                            <p class="mb-1">
+                                <small class="text-opac">تازه </small>
+                                <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                            </p>
+                            <a href="product.html" class="text-normal">
+                                <h6 class="text-color-theme">هندوانه</h6>
+                            </a>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">11000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- button counter increamenter-->
+                                    <div class="counter-number">
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-dash size-22"></i>
+                                        </button>
+                                        <span>1</span>
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-plus size-22"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow-sm product mb-4">
+                        <figure class="text-center mb-0 bg-light-warning">
+                            <img src="assets/img/product4.png" alt="">
+                        </figure>
+                        <div class="card-body">
+                            <p class="mb-1">
+                                <small class="text-opac">تازه </small>
+                                <small class="float-end ltr"><span class="text-opac">4.5</span> <i class="bi bi-star-fill text-warning"></i></small>
+                            </p>
+                            <a href="product.html" class="text-normal">
+                                <h6 class="text-color-theme">لیمو زرد</h6>
+                            </a>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="mb-0">8000 تومان به <br><small class="text-opac">ازای هر 1 کیلوگرم</small></p>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- button counter increamenter-->
+                                    <div class="counter-number">
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-dash size-22"></i>
+                                        </button>
+                                        <span>1</span>
+                                        <button class="btn btn-sm avatar avatar-30 p-0 rounded-circle">
+                                            <i class="bi bi-plus size-22"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Near by shops -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">نزدیک مغازه</h5>
+            </div>
+        </div>
+        <!-- shop slides -->
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="swiper-container shopslides mb-4">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="card shadow-sm ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <figure class="text-center mb-0 avatar avatar-60 page-bg rounded">
+                                                <i class="bi bi-shop size-24 text-color-theme"></i>
+                                            </figure>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" class="text-normal text-color-theme">
+                                                <h6 class="mb-1">غذای آتلانیکا <i class="bi bi-arrow-up-right-circle text-color-theme float-end"></i></h6>
+                                            </a>
+                                            <p class="mb-1">خیابان بهار</p>
+                                            <p class="small d-block">
+                                                <span class="text-opac">10:00 صبح تا </span>
+                                                <span class="float-start"><span class="text-opac">23:00 2.5 کیلومتر</span> <i class="bi bi-geo-alt"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <figure class="text-center mb-0 avatar avatar-60 page-bg rounded">
+                                                <i class="bi bi-shop size-24 text-color-theme"></i>
+                                            </figure>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" class="text-normal text-color-theme">
+                                                <h6 class="mb-1">غذای میلبار <i class="bi bi-arrow-up-right-circle text-color-theme float-end"></i></h6>
+                                            </a>
+                                            <p class="mb-1">تجریش</p>
+                                            <p class="small d-block">
+                                                <span class="text-opac">10:00 صبح تا </span>
+                                                <span class="float-start"><span class="text-opac">23:00 2.5 کیلومتر</span> <i class="bi bi-geo-alt"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <figure class="text-center mb-0 avatar avatar-60 page-bg rounded">
+                                                <i class="bi bi-shop size-24 text-color-theme"></i>
+                                            </figure>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" class="text-normal text-color-theme">
+                                                <h6 class="mb-1">آمازون تازه<i class="bi bi-arrow-up-right-circle text-color-theme float-end"></i></h6>
+                                            </a>
+                                            <p class="mb-1">ونک</p>
+                                            <p class="small d-block">
+                                                <span class="text-opac">10:00 صبح تا </span>
+                                                <span class="float-start"><span class="text-opac">23:00 2.5 کیلومتر</span> <i class="bi bi-geo-alt"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- toast messages -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">اقدامات مفید</h5>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <ul class="list-group list-group-flush bg-none">
+                        <li class="list-group-item" id="toastprouctaddedtinybtn">
+                            <div class="row gx-3">
+                                <div class="col-auto"><i class="bi bi-check-circle text-color-theme"></i></div>
+                                <div class="col">محصول اضافه شده کوچک</div>
+                                <div class="col-auto align-self-center">
+                                    <i class="bi bi-chevron-left text-opac small"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" id="toastprouctaddedbtn">
+                            <div class="row gx-3">
+                                <div class="col-auto"><i class="bi bi-check-circle text-color-theme"></i></div>
+                                <div class="col">محصول اضافه شده ساده است</div>
+                                <div class="col-auto align-self-center">
+                                    <i class="bi bi-chevron-left text-opac small"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" id="toastprouctaddedrichbtn">
+                            <div class="row gx-3">
+                                <div class="col-auto"><i class="bi bi-check-circle text-color-theme"></i></div>
+                                <div class="col">محصول اضافه شده غنی</div>
+                                <div class="col-auto align-self-center">
+                                    <i class="bi bi-chevron-left text-opac small"></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" data-bs-toggle="modal" data-bs-target="#addproductcart">
+                            <div class="row gx-3">
+                                <div class="col-auto"><i class="bi bi-check-circle text-color-theme"></i></div>
+                                <div class="col">محصول اضافه شده مودال</div>
+                                <div class="col-auto align-self-center">
+                                    <i class="bi bi-chevron-left text-opac small"></i>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--News and announcements -->
+        <div class="row mb-3">
+            <div class="col">
+                <h5 class="mb-0">اخبار و به روز رسانی</h5>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto">
+                                <figure class="text-center mb-0 avatar avatar-90 coverimg page-bg rounded">
+                                    <img src="assets/img/news1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col ps-0">
+                                <p class="small d-block mb-2">
+                                    <span class="text-opac">تنظیم کننده روند </span>
+                                    <span class="float-end"> <i class="bi bi-clock"></i> <span class="text-opac">26 بهمن 1400</span> </span>
+                                </p>
+                                <a href="#" class="text-normal text-color-theme">
+                                    <h6>بهترین طراحی UI UX با چارچوب های دوست داشتنی شما</h6>
+                                </a>
+                                <div class="mb-1">
+                                    <figure class="text-center mb-0 avatar avatar-20 coverimg">
+                                        <img src="assets/img/user2.jpg" alt="">
+                                    </figure>
+                                    آرچانا سینگ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto">
+                                <figure class="text-center mb-0 avatar avatar-90 coverimg page-bg rounded">
+                                    <img src="assets/img/news2.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col ps-0">
+                                <p class="small d-block mb-2">
+                                    <span class="text-opac">خواندن </span>
+                                    <span class="float-end"> <i class="bi bi-clock"></i> <span class="text-opac">26 بهمن 1400</span> </span>
+                                </p>
+                                <a href="#" class="text-normal text-color-theme">
+                                    <h6>از طراحی بد فاصله بگیرید و تغییر را بپذیرید</h6>
+                                </a>
+                                <div class="mb-1">
+                                    <figure class="text-center mb-0 avatar avatar-20 coverimg">
+                                        <img src="assets/img/user1.jpg" alt="">
+                                    </figure>
+                                    جان دو
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto">
+                                <figure class="text-center mb-0 avatar avatar-90 coverimg page-bg rounded">
+                                    <img src="assets/img/news3.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col ps-0">
+                                <p class="small d-block mb-2">
+                                    <span class="text-opac">فناوری غذا </span>
+                                    <span class="float-end"> <i class="bi bi-clock"></i> <span class="text-opac">26 بهمن 1400</span> </span>
+                                </p>
+                                <a href="#" class="text-normal text-color-theme">
+                                    <h6>هرگز از خرید و امتحان چیزهای جدید پشیمان نشوید</h6>
+                                </a>
+                                <div class="mb-1">
+                                    <figure class="text-center mb-0 avatar avatar-20 coverimg">
+                                        <img src="assets/img/user3.jpg" alt="">
+                                    </figure>
+                                    لاکسمیشو جانسون
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
