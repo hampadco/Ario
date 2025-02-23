@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -56,7 +57,30 @@ public IActionResult CheckLogin([FromBody] LoginRequest loginRequest)
     }
 }
 
+[HttpGet]
+public IActionResult GetFinaluser()
+{
+    var user= db.Users.OrderByDescending(x=>x.Id).Take(1).FirstOrDefault();
 
+    if (user ==null)
+    {
+        return NotFound("پیدا نشد");
+    }
+    return Ok(user);
+}
+
+
+[HttpPut]
+public IActionResult UpdateUser(User newuser)
+{
+    var find=db.Users.Find(newuser.Id);
+    find.Name=newuser.Name;
+    find.Password=newuser.Password;
+     db.Users.Update(find);
+     db.SaveChanges();
+     return Ok("موفقیت امیز بود");
+
+}
 
     
 }

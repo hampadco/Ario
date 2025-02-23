@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Front",
   "resources": {
-    "hash": "sha256-qFcvK18L3GGJpm1jpmKbOOy+0BhF4ev54ZDDyKYSFcc=",
+    "hash": "sha256-vnBXzYt4iTjJsMkzhhfFFcVdQBY4KhOfOb5Fd6mh4LI=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -314,10 +314,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Shared.obznhqbqsj.wasm": "Shared.wasm",
-      "Shared.4pfk347rek.pdb": "Shared.pdb",
-      "Front.3ap0hqh9wt.wasm": "Front.wasm",
-      "Front.93vti9jcdt.pdb": "Front.pdb"
+      "Shared.2axt685kt9.wasm": "Shared.wasm",
+      "Shared.8t2o4qbwqd.pdb": "Shared.pdb",
+      "Front.2w31kqjyh8.wasm": "Front.wasm",
+      "Front.022n3ayavu.pdb": "Front.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -575,12 +575,12 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "Shared.obznhqbqsj.wasm": "sha256-bGTWcOYPQ3H+GAYRK+zz/1d/I/KKfqSrxKo4BXCG+jM=",
-      "Front.3ap0hqh9wt.wasm": "sha256-BddiMn6fOeCKG7dbR89lnzao+W6Ty1dePR7gXypR4nY="
+      "Shared.2axt685kt9.wasm": "sha256-uoNtMD8ZxUE2hKvWrEjB6oekVLNRW7rXnZll8bQWvuY=",
+      "Front.2w31kqjyh8.wasm": "sha256-Dko2PFuwdY7kv9+sjoVyaZFPrhg+E4TsjVtx0hcbpWY="
     },
     "pdb": {
-      "Shared.4pfk347rek.pdb": "sha256-iNBhzMnMsaioB955o3bfTcxrlPsLGxmXNDvesQ2WTqU=",
-      "Front.93vti9jcdt.pdb": "sha256-pYgM1DqQtrVWekMMGGWT3eBo/67Yc236XU6x/oqHapA="
+      "Shared.8t2o4qbwqd.pdb": "sha256-PABomXClWX0cEL0bH9Qeie//XVWzTK9I4nwVL29xBrU=",
+      "Front.022n3ayavu.pdb": "sha256-KFUNQSocfUJbFahJslnaFMAxEqPUu6uNs0gAyTSrFHc="
     },
     "satelliteResources": {
       "cs": {
